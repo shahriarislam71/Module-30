@@ -7,5 +7,5 @@ document.getElementById('triangle-btn').addEventListener('click',function(){
     const triangleInputvalue1 = InputFieldValue('triangle-b')
     const triangleInputvalue2 = InputFieldValue('triangle-h')
     const triangleArea = CalculateArea('traiangle-title',triangleInputvalue1,triangleInputvalue2)
-    console.log(triangleArea)
+    setValue('areaCalculation',document.getElementById('traiangle-title').innerText,triangleArea)
 })
