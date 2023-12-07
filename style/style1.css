@@ -8,3 +8,13 @@
     background: #1090D8;
     color: white;
 }
+
+.border {
+    border-radius: 4px;
+    background: #F1F1F1;
+}
+
+/* img{
+    width: 100px;
+    height: 100px;
+} */
