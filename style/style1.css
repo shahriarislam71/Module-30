@@ -1,0 +1,10 @@
+.header {
+    border-radius: 8px;
+    background: rgba(16, 144, 216, 0.10);
+}
+
+.btn {
+    border-radius: 8px;
+    background: #1090D8;
+    color: white;
+}
