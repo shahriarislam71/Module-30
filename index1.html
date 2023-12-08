@@ -21,7 +21,7 @@
                 <p class="header-title-p">Geometry Genius</p>
 
             </div>
-            <button class="btn" type="submit">Blog</button>
+            <button id="blogId" class="btn" type="submit">Blog</button>
         </nav>
     </header>
     <!-- geometry calculation part -->
@@ -30,7 +30,7 @@
             <div id="triangle-background" class="card h-100">
                 <img src="images/triangle.png" class="w-50 mx-auto d-block mt-3" alt="...">
                 <div class="card-body">
-                    <h5 id="traiangle-title" class="card-title text-center">Triangle</h5>
+                    <h5 id="triangle-title" class="card-title text-center">Triangle</h5>
                     <p class="card-text text-center">Area(A) = 0.5 x b x h</p>
                     <form class="card-text text-center">
                         <div class="d-flex align-content-center justify-content-center">
@@ -172,6 +172,11 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('blogId').addEventListener('click',function(){
+            window.location.href = 'index2.html'
+        })
+    </script>
     <script src="js/utilities.js"></script>
     <script src="js/triangular.js"></script>
     <script src="js/rectangle.js"></script>
