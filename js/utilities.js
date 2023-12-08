@@ -83,6 +83,7 @@ function setValue(place, properties, value) {
   createDiv.appendChild(btn)
   setPlace.appendChild(createDiv)
 
+  // here is the Some style I used for area calculation part
   document.getElementById(newId).style.display = 'flex'
   document.getElementById(newId).style.alignItems = 'center'
   document.getElementById(newId).style.justifyContent = 'space-around'
